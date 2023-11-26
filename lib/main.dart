@@ -54,6 +54,8 @@ class _MyHomePageState extends State<MyHomePage> {
       } else if (fileOrDir is Directory) {
         print('Dir: ${fileOrDir.path}');
       }
+
+      // update done
     }
 
     setState(() {
